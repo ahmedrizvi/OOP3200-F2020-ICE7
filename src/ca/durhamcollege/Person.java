@@ -27,6 +27,9 @@ public class Person
 
     /* Constructors */
 
+    /**
+     * The default constructor sets the name to "unknown" and age to 0
+     */
     public Person()
     {
         m_name = "unknown";
@@ -52,7 +55,6 @@ public class Person
 
     /**
      * This method tests the person class and returns a simple message to the console
-     * @return {Void}
      */
 
     public void saysHello()
